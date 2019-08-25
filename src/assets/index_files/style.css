@@ -170,8 +170,8 @@
 /* 0.1. Body / Typography 
    ========================================================================== */
 
-body { font-family: 'Circular Std Book'; font-style: normal; font-weight: normal; font-size: 14px; color: #71748d; background-color: #efeff6; -webkit-font-smoothing: antialiased; }
-h1, h2, h3, h4, h5, h6 { color: #3d405c; margin: 0px 0px 15px 0px; font-family: 'Circular Std Medium'; }
+body { font-family: 'Helvetica'; font-style: normal; font-weight: normal; font-size: 14px; color: #71748d; background-color: #efeff6; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 { color: #3d405c; margin: 0px 0px 15px 0px; font-family: 'Helvetica'; }
 h1 { font-size: 34px; }
 h2 { font-size: 28px; line-height: 30px; }
 h3 { font-size: 20px; }
@@ -738,7 +738,7 @@ Top Header
     .product-thumbnail { border: 1px solid #e6e6f2; background-color: #fff; margin-bottom: 30px; }
     .product-img { text-align: center; padding: 35px 0px; }
     .product-img-head { position: relative; }
-    .ribbons { -webkit-clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 100%, 50% 73%, 10% 100%, 10% 50%); clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 100%, 50% 73%, 10% 100%, 10% 50%); position: absolute; top: 0px; background-color: #59b3ff; padding: 31px 15px; text-align: center; left: 10px; font-family: 'Circular Std Medium'; color: #fff; }
+    .ribbons { -webkit-clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 100%, 50% 73%, 10% 100%, 10% 50%); clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 100%, 50% 73%, 10% 100%, 10% 50%); position: absolute; top: 0px; background-color: #59b3ff; padding: 31px 15px; text-align: center; left: 10px; font-family: 'Helvetica'; color: #fff; }
     .ribbons-text { transform: rotate(90deg); position: absolute; top: 11px; left: 10px; color: #fff; }
     .product-wishlist-btn { height: 40px; width: 40px; border: 2px solid #dfdfec; border-radius: 100px; font-size: 18px; line-height: 2.3; color: #dfdfec; text-align: center; display: block; position: absolute; right: 15px; top: 15px; }
     .product-wishlist-btn:hover { border-color: #ff3367; color: #ff3367; transition: 0.3s ease; }
@@ -747,7 +747,7 @@ Top Header
     .product-content-head { position: relative; margin-bottom: 25px; }
     .product-title { font-size: 16px; margin-bottom: 5px; }
     .product-rating { font-size: 12px; color: #ffa811; }
-    .product-price { position: absolute; top: 0; right: 0; font-size: 16px; color: #3d405c; font-family: 'Circular Std Medium'; line-height: 1; }
+    .product-price { position: absolute; top: 0; right: 0; font-size: 16px; color: #3d405c; font-family: 'Helvetica'; line-height: 1; }
     .product-btn { }
     .product-del { font-size: 14px; color: #71748d; }
     .product-sidebar { background-color: #fff; border: 1px solid #e6e6f2; }
@@ -795,7 +795,7 @@ Top Header
     .quantity input { width: 65px; height: 41px; line-height: 1.65; float: left; display: block; padding: 0; margin: 0; padding-left: 20px; border: 1px solid #eee; }
     .quantity input:focus { outline: 0; }
     .quantity-nav { float: left; position: relative; height: 39px; }
-    .quantity-button { position: relative; cursor: pointer; border-left: 1px solid #e6e6f2; width: 20px; text-align: center; color: #333; font-size: 13px; font-family: 'Circular Std Medium'; line-height: 1.6; -webkit-transform: translateX(-100%); transform: translateX(-100%); -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; background-color: #efeff6; }
+    .quantity-button { position: relative; cursor: pointer; border-left: 1px solid #e6e6f2; width: 20px; text-align: center; color: #333; font-size: 13px; font-family: 'Helvetica'; line-height: 1.6; -webkit-transform: translateX(-100%); transform: translateX(-100%); -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; background-color: #efeff6; }
     .quantity-button.quantity-up { position: absolute; height: 50%; top: 0; border-bottom: 1px solid #e6e6f2; }
     .quantity-button.quantity-down { position: absolute; bottom: -1px; height: 50%; }
 
@@ -1290,7 +1290,7 @@ Top Header
     .table { margin-bottom: 0px; }
     .table td, .table th { padding: 10px; vertical-align: middle; border-top: 1px solid #e6e6f2; font-weight: normal; }
     .table thead th { vertical-align: bottom; border-bottom: 2px solid #e6e6f2; }
-    .table thead th, .table th { color: #3d405c; font-family: 'Circular Std Medium'; }
+    .table thead th, .table th { color: #3d405c; font-family: 'Helvetica'; }
     .table-bordered { border: 1px solid #e6e6f2; }
     .table-bordered td, .table-bordered th { border: 1px solid #e6e6f2; }
     .table-striped tbody tr:nth-of-type(odd) { background-color: rgba(230, 230, 242, .5); }
@@ -1302,7 +1302,7 @@ Top Header
 
     /*-- row group table */
 
-    tr.group, tr.group:hover { background-color: #5969ff !important; color: #fff; font-family: 'Circular Std Medium'; font-size: 18px; }
+    tr.group, tr.group:hover { background-color: #5969ff !important; color: #fff; font-family: 'Helvetica'; font-size: 18px; }
 
     /*----------------------- 
     5.3. Table Filters
